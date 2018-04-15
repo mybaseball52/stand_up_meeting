@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://demo:123456789@ds050879.mongolab.com:50879/standupmeetingnotes');
+mongoose.connect('mongodb://kevin:kevin@ds135619.mlab.com:35619/standupmeetingnotes');
 
 var app = express();
 
